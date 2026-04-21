@@ -6,6 +6,7 @@ export default defineConfig({
     title: "秋奈的 OC 们",
     description: "这里是秋奈的 OC 们的家",
     srcDir: './src',
+    cleanUrls: true,
     themeConfig: {
         sidebar: {
             '/Asami/': sidebarAsami,
