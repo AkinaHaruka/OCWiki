@@ -12,9 +12,34 @@ export default defineConfig({
             '/Asami/': sidebarAsami,
             '/': [
                 {text: '首页', link: '/'},
+                {text: '全部角色', link: '/all'},
                 {text: '浅见 绘理', link: '/Asami/'}
             ]
+        },
+        socialLinks: [
+            {icon: 'github', link: 'https://github.com/AkinaHaruka/OCWiki'},
+        ],
+        nav: [
+            {text: 'Project Akina', link: 'https://www.akinachan.com'}
+        ],
+        search: {
+            provider: 'local'
+        },
+        footer: {
+            message: 'Released under the Creative Commons License.',
+            copyright: 'Copyright © 2026-present 晴夏秋奈'
+        },
+        editLink: {
+            pattern: 'https://github.com/AkinaHaruka/OCWiki/blob/main/src/:path',
+            text: '在 GitHub 查看本页面'
+        },
+        sitemap: {
+            hostname: 'https://oc.akinachan.com'
         }
 
+
     },
+    markdown: {
+        math: true
+    }
 })
