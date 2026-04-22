@@ -14,6 +14,14 @@ export const sidebarAsami = [
                                 {text: '1. 舞萌', link: '/Asami/stories/volume1/1-舞萌'},
                                 {text: '2. 开学前夕', link: '/Asami/stories/volume1/2-开学前夕'}
                             ]
+                        },
+                        {
+                            text: '日常',
+                            link: '/Asami/stories/daily',
+                            collapsed: true,
+                            items: [
+                                {text: '偏见', link: '/Asami/stories/daily/偏见'}
+                            ]
                         }
                     ]
                 },
