@@ -33,13 +33,11 @@ export default defineConfig({
             pattern: 'https://github.com/AkinaHaruka/OCWiki/blob/main/src/:path',
             text: '在 GitHub 查看本页面'
         },
-        sitemap: {
-            hostname: 'https://oc.akinachan.com'
-        }
-
-
     },
     markdown: {
         math: true
+    },
+    sitemap: {
+        hostname: 'https://oc.akinachan.com'
     }
 })
