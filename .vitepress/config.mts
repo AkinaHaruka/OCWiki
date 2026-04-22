@@ -7,6 +7,13 @@ export default defineConfig({
     description: "这里是秋奈的 OC 们的家",
     srcDir: './src',
     cleanUrls: true,
+    lastUpdated: true,
+    markdown: {
+        math: true
+    },
+    sitemap: {
+        hostname: 'https://oc.akinachan.com'
+    },
     themeConfig: {
         sidebar: {
             '/Asami/': sidebarAsami,
@@ -26,18 +33,12 @@ export default defineConfig({
             provider: 'local'
         },
         footer: {
-            message: 'Released under the Creative Commons License.',
-            copyright: 'Copyright © 2026-present 晴夏秋奈'
+            message: '穿梭于不同的世界线，记录她们的闪光瞬间。',
+            copyright: 'Copyright © 2026-present 晴夏秋奈 | <b>All Characters Reserved</b> <br> 文字作品基于 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a> 协议发布'
         },
         editLink: {
             pattern: 'https://github.com/AkinaHaruka/OCWiki/blob/main/src/:path',
             text: '在 GitHub 查看本页面'
         },
     },
-    markdown: {
-        math: true
-    },
-    sitemap: {
-        hostname: 'https://oc.akinachan.com'
-    }
 })
