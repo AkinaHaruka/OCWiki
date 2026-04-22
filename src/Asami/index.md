@@ -14,4 +14,4 @@ next:
 
 接下来：
 - [阅读故事集](./stories/volume1/1-舞萌)
-- [阅读设定集（剧透警告）](./designs/characters/浅见绘理)
+- [阅读设定集（剧透警告）](./designs/)
