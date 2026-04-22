@@ -20,13 +20,15 @@ export const sidebarAsami = [
                             link: '/Asami/stories/daily',
                             collapsed: true,
                             items: [
-                                {text: '偏见', link: '/Asami/stories/daily/偏见'}
+                                {text: '偏见', link: '/Asami/stories/daily/偏见'},
+                                {text: 'ADHD', link: '/Asami/stories/daily/ADHD'},
                             ]
                         }
                     ]
                 },
                 {
                     text: '设定集',
+                    link: '/Asami/designs',
                     items: [
                         {
                             text: "角色",
