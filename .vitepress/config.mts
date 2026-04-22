@@ -1,5 +1,5 @@
 import {defineConfig} from 'vitepress'
-import {sidebarAsami} from '../src/Asami/scripts/sidebar'
+import {sidebarEri} from '../src/Eri/scripts/sidebar'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -16,11 +16,11 @@ export default defineConfig({
     },
     themeConfig: {
         sidebar: {
-            '/Asami/': sidebarAsami,
+            '/Eri/': sidebarEri,
             '/': [
                 {text: '首页', link: '/'},
                 {text: '全部角色', link: '/all'},
-                {text: '浅见 绘理', link: '/Asami/'}
+                {text: '浅见 绘理', link: '/Eri/'}
             ]
         },
         socialLinks: [
