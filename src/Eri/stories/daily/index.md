@@ -5,12 +5,12 @@ next:
 ---
 
 <script setup>
-  import { v } from '/Asami/scripts/v'
+  import { v } from '/Eri/scripts/v'
 </script>
 
 # 关于 日常
 
-「日常」 并不属于任何一卷故事集，单纯只是{{v.asa}}的一些生活片段，因此通常没有连续性。
+「日常」 并不属于任何一卷故事集，单纯只是{{v.eri}}的一些生活片段，因此通常没有连续性。
 
 但「日常」的写作难度要低很多，便于我可以随时分享关于绘理的故事，因此才设立这一卷。
 
