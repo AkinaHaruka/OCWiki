@@ -12,7 +12,7 @@ export const sidebarAsami = [
                             collapsed: true,
                             items: [
                                 {text: '1. 舞萌', link: '/Asami/stories/volume1/1-舞萌'},
-                                {text: '2. 开学前夕', link: '/Asami/stories/volume1/2-开学前夕'}
+                                //{text: '2. 开学前夕', link: '/Asami/stories/volume1/2-开学前夕'}
                             ]
                         },
                         {
