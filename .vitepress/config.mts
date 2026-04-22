@@ -1,5 +1,5 @@
 import {defineConfig} from 'vitepress'
-import {sidebarAsami} from './config/Asami'
+import {sidebarAsami} from '../src/Asami/scripts/sidebar'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({

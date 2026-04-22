@@ -5,7 +5,7 @@ next:
 ---
 
 <script setup>
-  import * as v from '../../variables'
+  import { v } from '/Asami/scripts/v'
 </script>
 
 # 关于 日常
