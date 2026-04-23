@@ -1,3 +1,8 @@
+---
+next:
+    text: 无需代码的“入侵”
+    link: ../无需代码的入侵
+---
 <script setup>
   import { v } from '/Eri/scripts/v'
 </script>
