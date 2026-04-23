@@ -22,6 +22,7 @@ export const sidebarEri = [
                             items: [
                                 {text: '偏见', link: '/Eri/stories/daily/偏见'},
                                 {text: 'ADHD', link: '/Eri/stories/daily/ADHD'},
+                                {text: '无需代码的"入侵“',link: '/Eri/stories/daily/无需代码的入侵'},
                             ]
                         }
                     ]
