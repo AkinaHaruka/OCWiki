@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: 秋奈的 OC 站
-  tagline: 阅读她们的故事
+  tagline: 穿梭于不同的世界线，记录她们的闪光瞬间。
   actions:
     - theme: brand
       text: 浅见 绘理
