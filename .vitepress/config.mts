@@ -30,7 +30,24 @@ export default defineConfig({
             {text: 'Project Akina', link: 'https://www.akinachan.com'}
         ],
         search: {
-            provider: 'local'
+            provider: 'algolia',
+            options: {
+                appId: '6TF081WENG',
+                apiKey: 'cb483e3baca37e2c67447ab5450541a4',
+                indexName: 'oc_pages',
+                askAi: {
+                    assistantId: '9807cdba-bdc8-4e10-ab9e-f1ed1dba55fd',
+                    sidePanel: {
+                        panel: {
+                            variant: 'floating', // or 'inline'
+                            side: 'right',
+                            width: '360px',
+                            expandedWidth: '580px',
+                            suggestedQuestions: true
+                        }
+                    }
+                }
+            }
         },
         footer: {
             message: '穿梭于不同的世界线，记录她们的闪光瞬间。',
